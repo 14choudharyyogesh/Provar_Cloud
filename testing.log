@@ -1,0 +1,130 @@
+[INFO ] 2023-12-28 07:34:58.963 [main] UsersTest - ********** Creating User ***********
+[INFO ] 2023-12-28 07:35:05.039 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:03 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:05.044 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"829737737"}
+[INFO ] 2023-12-28 07:35:05.044 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:35:05.045 [main] UsersTest - Response time: - 5321
+[INFO ] 2023-12-28 07:35:05.047 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:35:05.066 [main] UsersTest - ********** Reading User info ***********
+[INFO ] 2023-12-28 07:35:07.351 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:05 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:07.352 [main] UsersTest - Response body: - {"id":829737737,"username":"lakisha.schaden","firstName":"Kermit","lastName":"Gerlach","email":"lori.wiegand@example.com","password":"m5wn8s","phone":"844.721.4648","userStatus":0}
+[INFO ] 2023-12-28 07:35:07.352 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:35:07.352 [main] UsersTest - Response time: - 2278
+[INFO ] 2023-12-28 07:35:07.352 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:35:07.356 [main] UsersTest - ********** Updating User info ***********
+[INFO ] 2023-12-28 07:35:10.217 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:08 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:10.218 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"829737737"}
+[INFO ] 2023-12-28 07:35:10.219 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:35:10.219 [main] UsersTest - Response time: - 2854
+[INFO ] 2023-12-28 07:35:10.219 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:35:10.220 [main] UsersTest - ********** Reading the Updated User info ***********
+[INFO ] 2023-12-28 07:35:12.777 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:12.778 [main] UsersTest - Response body: - {"id":829737737,"username":"lakisha.schaden","firstName":"Jarod","lastName":"VonRueden","email":"stephen.kuphal@example.com","password":"m5wn8s","phone":"844.721.4648","userStatus":0}
+[INFO ] 2023-12-28 07:35:12.778 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:35:12.779 [main] UsersTest - Response time: - 2550
+[INFO ] 2023-12-28 07:35:12.779 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:35:12.786 [main] UsersTest - ********** Deleting the User ***********
+[INFO ] 2023-12-28 07:35:15.645 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:13 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:15.646 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"lakisha.schaden"}
+[INFO ] 2023-12-28 07:35:15.646 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:35:15.647 [main] UsersTest - Response time: - 2852
+[INFO ] 2023-12-28 07:35:15.647 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:35:15.655 [main] UsersTest - ********** Reading the deleting User info ***********
+[INFO ] 2023-12-28 07:35:18.512 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:05:16 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:35:18.515 [main] UsersTest - Response body: - {"code":1,"type":"error","message":"User not found"}
+[INFO ] 2023-12-28 07:35:18.515 [main] UsersTest - status code: - HTTP/1.1 404 Not Found
+[INFO ] 2023-12-28 07:35:18.515 [main] UsersTest - Response time: - 2853
+[INFO ] 2023-12-28 07:35:18.516 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:38:23.363 [main] UsersTest - ********** Creating User ***********
+[INFO ] 2023-12-28 07:38:26.864 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:08:25 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:38:26.868 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"1296109622"}
+[INFO ] 2023-12-28 07:38:26.868 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:38:26.870 [main] UsersTest - Response time: - 2730
+[INFO ] 2023-12-28 07:38:26.871 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 07:41:22.683 [main] UsersTest - ********** Creating User ***********
+[INFO ] 2023-12-28 07:41:26.267 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:11:24 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 07:41:26.271 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"1296109622"}
+[INFO ] 2023-12-28 07:41:26.273 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 07:41:26.274 [main] UsersTest - Response time: - 2781
+[INFO ] 2023-12-28 07:41:26.275 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 08:14:08.289 [main] UsersTest - ********** Creating User ***********
+[INFO ] 2023-12-28 08:14:11.874 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:44:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 08:14:11.882 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"1296109622"}
+[INFO ] 2023-12-28 08:14:11.883 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 08:14:11.887 [main] UsersTest - Response time: - 2521
+[INFO ] 2023-12-28 08:14:11.887 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-28 08:29:55.343 [main] UsersTest - ********** Creating User ***********
+[INFO ] 2023-12-28 08:29:58.606 [main] UsersTest - Response Header: - Date=Thu, 28 Dec 2023 02:59:56 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-28 08:29:58.612 [main] UsersTest - Response body: - {"code":200,"type":"unknown","message":"1296109622"}
+[INFO ] 2023-12-28 08:29:58.612 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-28 08:29:58.615 [main] UsersTest - Response time: - 2535
+[INFO ] 2023-12-28 08:29:58.615 [main] UsersTest - Session id: - null
