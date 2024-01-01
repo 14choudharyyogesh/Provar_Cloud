@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.082" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud\target\test-classes;C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud\target\classes;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\yogesh.choudhary\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\yogesh.choudhary\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\yogesh.choudhary\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\yogesh.choudhary\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\yogesh.choudhary\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\yogesh.choudhary\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\yogesh.choudhary\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\yogesh.choudhary\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\yogesh.choudhary\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\yogesh.choudhary\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Software\amazon-corretto-11.0.16.9.1-windows-x64-jdk\jdk11.0.16_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\yogesh.choudhary\AppData\Local\Temp\surefire590711529225900502\surefirebooter-20231231210424649_3.jar C:\Users\yogesh.choudhary\AppData\Local\Temp\surefire590711529225900502 2023-12-31T21-04-24_384-jvmRun1 surefire-20231231210424649_1tmp surefire_0-20231231210424649_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud\target\test-classes;C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud\target\classes;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\yogesh.choudhary\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\yogesh.choudhary\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\yogesh.choudhary\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\yogesh.choudhary\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\yogesh.choudhary\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\yogesh.choudhary\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\yogesh.choudhary\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\yogesh.choudhary\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\yogesh.choudhary\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\yogesh.choudhary\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\yogesh.choudhary\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\yogesh.choudhary\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\yogesh.choudhary\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\yogesh.choudhary\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\yogesh.choudhary\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\yogesh.choudhary\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\yogesh.choudhary\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\yogesh.choudhary\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\yogesh.choudhary\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\yogesh.choudhary\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\yogesh.choudhary\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yogesh.choudhary"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Software\amazon-corretto-11.0.16.9.1-windows-x64-jdk\jdk11.0.16_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\yogesh.choudhary\AppData\Local\Temp\surefire590711529225900502\surefirebooter-20231231210424649_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+9-LTS"/>
+    <property name="user.name" value="yogesh.choudhary"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.16.9.1"/>
+    <property name="localRepository" value="C:\Users\yogesh.choudhary\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\YOGESH~1.CHO\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Users\yogesh.choudhary\RestAssuredPoc\Provar_Cloud"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Software\amazon-corretto-11.0.16.9.1-windows-x64-jdk\jdk11.0.16_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/yogesh.choudhary/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/yogesh.choudhary/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Software\amazon-corretto-11.0.16.9.1-windows-x64-jdk\jdk11.0.16_9\bin;C:\Software\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\yogesh.choudhary\apache-ant-1.10.13-bin\apache-ant-1.10.13-bin\apache-ant-1.10.13\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\allure command line\allure-commandline-2.25.0\allure-2.25.0\bin;C:\Users\yogesh.choudhary\AppData\Local\Microsoft\WindowsApps;;C:\Users\yogesh.choudhary\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yogesh.choudhary\AppData\Roaming\npm;C:\Program Files\sf\bin;C:\Users\yogesh.choudhary\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.16.1+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testPostUser" classname="api.test.UsersTest" time="3.796">
+    <system-out><![CDATA[[INFO ] 2023-12-31 21:04:26.484 [main] UsersTest - ********** Request BOdy ***********
+
+[INFO ] 2023-12-31 21:04:26.486 [main] UsersTest - {
+  "id" : 296234255,
+  "username" : "james.adams",
+  "firstName" : "Aldo",
+  "lastName" : "Ziemann",
+  "email" : "kendal.crooks@example.com",
+  "password" : "1dot07",
+  "phone" : "231-447-4832",
+  "userStatus" : 0
+}
+[INFO ] 2023-12-31 21:04:26.519 [main] UsersTest - ********** Creating User ***********
+
+[INFO ] 2023-12-31 21:04:30.185 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:30.219 [main] UsersTest - Response body: - {
+    "code": 200,
+    "type": "unknown",
+    "message": "296234255"
+}
+[INFO ] 2023-12-31 21:04:30.220 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-31 21:04:30.222 [main] UsersTest - Response time: - 2835
+[INFO ] 2023-12-31 21:04:30.223 [main] UsersTest - Session id: - null
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testReadUserData" classname="api.test.UsersTest" time="2.641">
+    <system-out><![CDATA[[INFO ] 2023-12-31 21:04:30.294 [main] UsersTest - ********** Reading User info ***********
+
+[INFO ] 2023-12-31 21:04:32.722 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:33 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:32.724 [main] UsersTest - Response body: - {
+    "id": 296234255,
+    "username": "james.adams",
+    "firstName": "Aldo",
+    "lastName": "Ziemann",
+    "email": "kendal.crooks@example.com",
+    "password": "1dot07",
+    "phone": "231-447-4832",
+    "userStatus": 0
+}
+[INFO ] 2023-12-31 21:04:32.724 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-31 21:04:32.724 [main] UsersTest - Response time: - 2410
+[INFO ] 2023-12-31 21:04:32.724 [main] UsersTest - Session id: - null
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserData" classname="api.test.UsersTest" time="3.743">
+    <system-out><![CDATA[[INFO ] 2023-12-31 21:04:32.936 [main] UsersTest - ********** Updating User info ***********
+
+[INFO ] 2023-12-31 21:04:34.946 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:35 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:34.947 [main] UsersTest - Response body: - {
+    "code": 200,
+    "type": "unknown",
+    "message": "296234255"
+}
+[INFO ] 2023-12-31 21:04:34.947 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-31 21:04:34.947 [main] UsersTest - Response time: - 2000
+[INFO ] 2023-12-31 21:04:34.949 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-31 21:04:34.949 [main] UsersTest - ********** Reading the Updated User info ***********
+
+[INFO ] 2023-12-31 21:04:36.670 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:37 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:36.672 [main] UsersTest - Response body: - {
+    "id": 296234255,
+    "username": "james.adams",
+    "firstName": "Eleni",
+    "lastName": "McKenzie",
+    "email": "nobuko.hudson@example.com",
+    "password": "1dot07",
+    "phone": "231-447-4832",
+    "userStatus": 0
+}
+[INFO ] 2023-12-31 21:04:36.673 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-31 21:04:36.673 [main] UsersTest - Response time: - 1708
+[INFO ] 2023-12-31 21:04:36.673 [main] UsersTest - Session id: - null
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletionUserData" classname="api.test.UsersTest" time="4.353">
+    <system-out><![CDATA[[INFO ] 2023-12-31 21:04:36.679 [main] UsersTest - ********** Deleting the User ***********
+
+[INFO ] 2023-12-31 21:04:38.427 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:38 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:38.428 [main] UsersTest - Response body: - {
+    "code": 200,
+    "type": "unknown",
+    "message": "james.adams"
+}
+[INFO ] 2023-12-31 21:04:38.428 [main] UsersTest - status code: - HTTP/1.1 200 OK
+[INFO ] 2023-12-31 21:04:38.428 [main] UsersTest - Response time: - 1740
+[INFO ] 2023-12-31 21:04:38.428 [main] UsersTest - Session id: - null
+[INFO ] 2023-12-31 21:04:38.433 [main] UsersTest - ********** Reading the deleting User info ***********
+
+[INFO ] 2023-12-31 21:04:40.488 [main] UsersTest - Response Header: - Date=Sun, 31 Dec 2023 15:34:40 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2023-12-31 21:04:40.489 [main] UsersTest - Response body: - {
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+[INFO ] 2023-12-31 21:04:40.489 [main] UsersTest - status code: - HTTP/1.1 404 Not Found
+[INFO ] 2023-12-31 21:04:40.489 [main] UsersTest - Response time: - 2050
+[INFO ] 2023-12-31 21:04:40.489 [main] UsersTest - Session id: - null
+]]></system-out>
+  </testcase>
+</testsuite>
